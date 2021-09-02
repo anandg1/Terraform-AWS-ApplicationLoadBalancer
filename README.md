@@ -111,7 +111,7 @@ Application Load Balancer operates at the request level (layer 7), routing traff
 Application Load Balancer consists of listeners and rules. When a client makes the request, the listener acknowledges it. The rules are guidelines that govern the routing of each client request once it’s heard by the listener. The rules consist of three components – Target group, Priority and Conditions. Target Groups consists of registered targets(servers where the traffic is to be routed). Each target group routes requests to one or more registered targets, such as EC2 instances, using the protocol and port number that you specify. So basically, when the listener gets the request, it goes through priority order to determine which rule to apply, analyzes the rules and based on condition, decides which target group gets the request.
 > You can always add or remove targets from your load balancer as and when needed, without disrupting the overall flow of the requests to your application. ELB scales your load balancer dynamically, i.e. as traffic on your application changes over time keeping your application prepared for various situations.
 
-![alt text]()
+![alt text](https://github.com/anandg1/Terraform-AWS-ApplicationLoadBalancer/blob/main/ALB.png)
 
 ## 4) Creating the 'main .tf' file
 

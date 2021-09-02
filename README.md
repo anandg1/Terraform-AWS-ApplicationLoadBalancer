@@ -473,7 +473,7 @@ resource "aws_autoscaling_group" "asg-2" {
   }
 }
 ```
-## 5)creating 2 user datas files in the working directory for the launch configuration
+## 5) Creating 2 user datas files in the working directory for the launch configuration
 ```sh
 vi userdata1.sh
 ```

@@ -331,7 +331,7 @@ output "alb-endpoint" {
   value = aws_lb.appln-lb.dns_name
 } 
 ```
-Creating an http listener for the application load balancer with default action.
+> Creating an http listener for the application load balancer with default action.
 ```sh
 resource "aws_lb_listener" "listner" {
   

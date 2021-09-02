@@ -247,7 +247,7 @@ resource "aws_security_group" "sglb" {
   }
 }
 ```
-Creating Target Groups For the Application LoadBalancer
+> Creating Target Groups For the Application LoadBalancer
 > I'm creating 2 target groups.
 
 Target group 1
@@ -312,7 +312,7 @@ resource "aws_lb_target_group" "tg-2" {
 ```
 > The create_before_destroy meta-argument changes this behavior so that the new replacement object is created first, and the prior object is destroyed after the replacement is created.
 
->Creating an Application LoadBalancer:
+> Creating an Application LoadBalancer:
 ```sh
 resource "aws_lb" "appln-lb" {
   name               = "appln-lb"

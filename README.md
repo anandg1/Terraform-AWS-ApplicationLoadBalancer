@@ -451,7 +451,7 @@ resource "aws_autoscaling_group" "asg-1" {
 }
 
 ```
-> Creating the Auto Scaling Group-2 with Lauch configuration-1 with Target group-2
+> Creating the Auto Scaling Group-2 with Lauch configuration-2 with Target group-2
 ```sh
 resource "aws_autoscaling_group" "asg-2" {
 
